@@ -24,3 +24,8 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+
+
+//sikorainna94   VYIZnrS6HTz9PtV2
+
+//  mongodb+srv://sikorainna94:VYIZnrS6HTz9PtV2@cluster0.zhez9vu.mongodb.net/test
