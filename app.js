@@ -1,6 +1,7 @@
 const express = require('express');
 const logger = require('morgan');
 const cors = require('cors');
+require('dotenv').config();
 
 const contactsRouter = require('./routes/api/contacts');
 
@@ -24,8 +25,3 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
-
-
-//sikorainna94   VYIZnrS6HTz9PtV2
-
-//  mongodb+srv://sikorainna94:VYIZnrS6HTz9PtV2@cluster0.zhez9vu.mongodb.net/test
